@@ -552,6 +552,10 @@ use Faker\Container\ContainerInterface;
  * @property string $uuid
  *
  * @method string uuid()
+ *
+ * @property string $thing
+ *
+ * @method string thing()
  */
 class Generator
 {
