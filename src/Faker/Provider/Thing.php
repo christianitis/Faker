@@ -7,7 +7,7 @@ class Thing extends Base
     protected static $thingFormats = [
         '{{noun}} {{thingFunction}}',
         '{{adjective}} {{noun}} {{thingFunction}}',
-        '{{adjective}} {{thingFunction}}'
+        '{{adjective}} {{thingFunction}}',
     ];
     protected static $adjective = [];
     protected static $noun = [];
