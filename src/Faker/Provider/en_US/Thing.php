@@ -5,30 +5,31 @@ namespace Faker\Provider\en_US;
 class Thing extends \Faker\Provider\Thing
 {
     protected static $adjective = [
-        'Anti', 'Turbo', 'Super', 'Ultra', 'Light', 'Rolling', 'Non-Rolling', 'Horizontal', 'Vertical', 'Parallel',
-        'Perpendicular', 'Electric', 'Pneumatic', 'Gas', 'Gas-Powered', 'Battery-Powered', 'Elephant-Powered', 'Homing',
-        'Jet-Powered', 'Electrified', 'Industrial', 'Commercial', 'Residential', 'High-Powered', 'High-Speed', 'Powered',
-        'Budget', 'Low-Cost', 'Angled', 'Solid-State', 'Military', 'Weaponized', 'Armed', 'Armored', 'Subterranean',
-        'Flying', 'Remote', 'Autonomous', 'Automatic', 'Manual', 'Autonomic', 'Pharmaceutical', 'Thermal', 'Caustic',
-        'Acidic', 'Basic', 'Neutral', 'Charged', 'Lit', 'Carbonated', 'Aerated', 'Metallic', 'Crystalline',
+        'Acidic', 'Aerated', 'Angled', 'Anti', 'Armed', 'Armored', 'Automatic', 'Autonomic', 'Autonomous', 'Basic',
+        'Battery-Powered', 'Budget', 'Carbonated', 'Caustic', 'Charged', 'Commercial', 'Crystalline', 'Electric',
+        'Electrified', 'Elephant-Powered', 'Flying', 'Gas', 'Gas-Powered', 'High-Powered', 'High-Speed', 'Homing',
+        'Horizontal', 'Industrial', 'Jet-Powered', 'Light', 'Lit', 'Low-Cost', 'Manual', 'Metallic', 'Military',
+        'Neutral', 'Non-Rolling', 'Parallel', 'Perpendicular', 'Pharmaceutical', 'Pneumatic', 'Powered', 'Remote',
+        'Residential', 'Rolling', 'Solid-State', 'Subterranean', 'Super', 'Thermal', 'Turbo', 'Ultra', 'Vertical',
+        'Weaponized',
     ];
 
     protected static $noun = [
-        'Mass', 'Steel', 'Metal', 'Wood', 'Phone', 'Elephant', 'Concrete', 'Wall', 'Pen', 'Pencil', 'Customer', 'Lamp',
-        'Plastic', 'Cabinet', 'Gold', 'Silver',  'Car', 'Truck', 'Aluminum', 'Board', 'Keyboard', 'Mouse', 'Magnet',
-        'Bacteria', 'Scum', 'Finger', 'Waste', 'Wastewater', 'Sump', 'Garbage', 'Paint', 'Food', 'Chemical', 'Product',
-        'Cable', 'PHP', 'Box', 'Package', 'Crate', 'Coolant', 'Desk', 'Blood', 'Radiation', 'Laser', 'Drive', 'Disk',
-        'Card', 'Syrup', 'Juice', 'Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron', 'Carbon', 'Nitrogen', 'Oxygen',
-        'Flourine', 'Neon', 'Sodium', 'Magnesium', 'Aluminum', 'Silicon', 'Phosphorous', 'Sulfur', 'Chlorine', 'Argon',
-        'Potassium', 'Calcium', 'Scandium', 'Crystal', 'Arcade', 'Cave', 'Tunnel', 'Roof',
+        'Aluminum', 'Aluminum', 'Arcade', 'Argon', 'Bacteria', 'Beryllium', 'Blood', 'Board', 'Boron', 'Box', 'Cabinet',
+        'Cable', 'Calcium', 'Car', 'Carbon', 'Card', 'Cave', 'Chemical', 'Chlorine', 'Concrete', 'Coolant', 'Crate',
+        'Crystal', 'Customer', 'Desk', 'Disk', 'Drive', 'Elephant', 'Finger', 'Flourine', 'Food', 'Garbage', 'Gold',
+        'Helium', 'Hydrogen', 'Juice', 'Keyboard', 'Lamp', 'Laser', 'Lithium', 'Magnesium', 'Magnet', 'Mass', 'Metal',
+        'Mouse', 'Neon', 'Nitrogen', 'Oxygen', 'PHP', 'Package', 'Paint', 'Pen', 'Pencil', 'Phone', 'Phosphorous',
+        'Plastic', 'Potassium', 'Product', 'Radiation', 'Roof', 'Scandium', 'Scum', 'Silicon', 'Silver', 'Sodium',
+        'Steel', 'Sulfur', 'Sump', 'Syrup', 'Truck', 'Tunnel', 'Wall', 'Waste', 'Wastewater', 'Wood',
     ];
 
     protected static $thingFunction = [
-        'Spectrometer', 'Scope', 'Microscope', 'Destroyer', 'Builder', 'Programmer', 'Creator', 'Bender', 'Scanner',
-        'Randomizer', 'Organizer', 'Counter', 'Culler', 'Stapler', 'Welder', 'System', 'Computer', 'Controller',
-        'Control System', 'Cooling System', 'Harness', 'Stabilizer', 'Aerator', 'Feeding System', 'Feeder',
-        'Feeding Device', 'Tube', 'Narrator', 'Bolter', 'Nailing Device', 'Crusher', 'Reader', 'Writer', 'Wiper',
-        'Tracker', 'Taper', 'Recorder', 'Recording Device', 'Monitor', 'Monitoring System', 'Monitoring Device',
+        'Aerator', 'Bender', 'Bolter', 'Builder', 'Computer', 'Control System', 'Controller', 'Cooling System',
+        'Counter', 'Creator', 'Crusher', 'Culler', 'Destroyer', 'Feeder', 'Feeding Device', 'Feeding System',
+        'Harness', 'Microscope', 'Monitor', 'Monitoring Device', 'Monitoring System', 'Nailing Device',
+        'Narrator', 'Organizer', 'Programmer', 'Randomizer', 'Reader', 'Recorder', 'Recording Device',
+        'Scanner', 'Scope', 'Spectrometer', 'Stabilizer', 'Stapler', 'System', 'Taper', 'Tracker', 'Tube',
+        'Welder', 'Wiper', 'Writer',
     ];
-
 }

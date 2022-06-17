@@ -35,7 +35,6 @@ class Thing extends Base
         return static::randomElement(static::$adjective);
     }
 
-
     /**
      * @return string
      *
